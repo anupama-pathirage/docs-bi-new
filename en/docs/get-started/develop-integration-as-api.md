@@ -1,4 +1,4 @@
-# Quick Start Guide
+# Develop Integration as API
 
 In this guide, you'll build a simple integration using the WSO2 Integrator: BI extension. You'll create an HTTP service with a single resource named `greeting` that invokes the public [Hello World API endpoint](https://apis.wso2.com/zvdz/mi-qsg/v1.0) and returns the response.
 
