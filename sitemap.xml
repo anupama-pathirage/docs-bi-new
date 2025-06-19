@@ -66,17 +66,17 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://bi.docs.wso2.com/get-started/develop-integration-as-api/</loc>
+         <lastmod>2025-06-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://bi.docs.wso2.com/get-started/introduction/</loc>
          <lastmod>2025-06-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://bi.docs.wso2.com/get-started/key-concepts/</loc>
-         <lastmod>2025-06-19</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://bi.docs.wso2.com/get-started/quick-start-guide/</loc>
          <lastmod>2025-06-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
