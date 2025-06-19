@@ -27,7 +27,6 @@ jobs:
 
       - name: Build MkDocs Documentation
         run: |
-          git config --global user.email "anupama@wso2.com"
-          git config --global user.name "anupama-pathirage"
+          github_token: ${{ secrets.LEARN_BALLERINA }}
           cd en/
           mkdocs gh-deploy
