@@ -1647,7 +1647,7 @@ The tutorial uses a natural function to analyze blog content to suggest a suitab
 </li>
 <li>
 <p>The types are now available in the project. <code>Blog</code> and <code>Review</code> are the types that represent the blog content and review respectively.</p>
-<p><a href="http://localhost:8000/assets/img/learn/references/natural-functions/types.png"><img src="http://localhost:8000/assets/img/learn/references/natural-functions/types.png" alt="Types" width="70%"></a></p>
+<p><a href="https://anupama-pathirage.github.io/docs-bi-new//assets/img/learn/references/natural-functions/types.png"><img src="https://anupama-pathirage.github.io/docs-bi-new//assets/img/learn/references/natural-functions/types.png" alt="Types" width="70%"></a></p>
 </li>
 </ol>
 <h3 id="step-3-add-a-natural-function">Step 3: Add a Natural Function<a class="headerlink" href="#step-3-add-a-natural-function" title="Permanent link">&para;</a></h3>
@@ -1655,7 +1655,7 @@ The tutorial uses a natural function to analyze blog content to suggest a suitab
 <li>Click on the <strong><code>Add Artifact</code></strong> button and select <strong><code>Natural Function</code></strong> under the <strong><code>Other Artifacts</code></strong> category.</li>
 <li>
 <p>Use <code>reviewBlog</code> as the name of the function. Then click the <strong><code>Add Parameter</code></strong> button to add a parameter of type <code>Blog</code> named <code>blog</code>. Use <code>Review</code> as the return type and convert it to nilable type using type operators. Then click on the <strong><code>Create</code></strong> button.</p>
-<p><a href="http://localhost:8000/assets/img/learn/references/natural-functions/natural-function.png"><img src="http://localhost:8000/assets/img/learn/references/natural-functions/natural-function.png" alt="natural function"></a></p>
+<p><a href="https://anupama-pathirage.github.io/docs-bi-new//assets/img/learn/references/natural-functions/natural-function.png"><img src="https://anupama-pathirage.github.io/docs-bi-new//assets/img/learn/references/natural-functions/natural-function.png" alt="natural function"></a></p>
 </li>
 <li>
 <p>Click on the <strong><code>Edit</code></strong> button to specify the requirement in natural language (i.e., the prompt).</p>
@@ -1682,7 +1682,7 @@ Here is the blog post content:
     Content: ${blog.content}
 </code></pre></div>
 
-<p><a href="http://localhost:8000/assets/img/learn/references/natural-functions/natural-function-view.png"><img src="http://localhost:8000/assets/img/learn/references/natural-functions/natural-function-view.png" alt="natural function view" width="70%"></a></p>
+<p><a href="https://anupama-pathirage.github.io/docs-bi-new//assets/img/learn/references/natural-functions/natural-function-view.png"><img src="https://anupama-pathirage.github.io/docs-bi-new//assets/img/learn/references/natural-functions/natural-function-view.png" alt="natural function view" width="70%"></a></p>
 </li>
 </ol>
 <h3 id="step-4-create-an-http-service">Step 4: Create an HTTP service<a class="headerlink" href="#step-4-create-an-http-service" title="Permanent link">&para;</a></h3>
@@ -1693,7 +1693,7 @@ Here is the blog post content:
 <li>Select the <strong><code>Design from Scratch</code></strong> option as the <strong><code>Service Contract</code></strong> and use <code>/blogs</code> as the <strong><code>Service base path</code></strong>.</li>
 <li>
 <p>Click on the <strong><code>Create</code></strong> button to create the new service with the specified configurations.</p>
-<p><a href="http://localhost:8000/assets/img/learn/references/natural-functions/service.png"><img src="http://localhost:8000/assets/img/learn/references/natural-functions/service.png" alt="HTTP Service" width="70%"></a></p>
+<p><a href="https://anupama-pathirage.github.io/docs-bi-new//assets/img/learn/references/natural-functions/service.png"><img src="https://anupama-pathirage.github.io/docs-bi-new//assets/img/learn/references/natural-functions/service.png" alt="HTTP Service" width="70%"></a></p>
 </li>
 <li>
 <p>The service will have a default resource named <code>greeting</code> with the <strong><code>GET</code></strong> method. Click on the three dots that appear in front of the <code>/blogs</code> service and select <strong><code>Edit</code></strong> from the menu.</p>
@@ -1705,7 +1705,7 @@ Here is the blog post content:
 <li>Change the 201 response return type to <code>Review</code>.</li>
 <li>
 <p>Click on the <strong><code>Save</code></strong> button to update the resource with the specified configurations.</p>
-<p><a href="http://localhost:8000/assets/img/learn/references/natural-functions/update-resource.png"><img src="http://localhost:8000/assets/img/learn/references/natural-functions/update-resource.png" alt="Resource" width="70%"></a></p>
+<p><a href="https://anupama-pathirage.github.io/docs-bi-new//assets/img/learn/references/natural-functions/update-resource.png"><img src="https://anupama-pathirage.github.io/docs-bi-new//assets/img/learn/references/natural-functions/update-resource.png" alt="Resource" width="70%"></a></p>
 </li>
 </ol>
 <h3 id="step-5-implement-the-resource-logic">Step 5: Implement the resource logic<a class="headerlink" href="#step-5-implement-the-resource-logic" title="Permanent link">&para;</a></h3>
@@ -1716,14 +1716,14 @@ Here is the blog post content:
 <li>Select the <code>reviewBlog</code> function from the suggestions.</li>
 <li>
 <p>For the <strong><code>Blog</code></strong> parameter, use <code>blog</code> as the argument and click on the <strong><code>Save</code></strong> button.</p>
-<p><a href="http://localhost:8000/assets/img/learn/references/natural-functions/call-np.gif"><img src="http://localhost:8000/assets/img/learn/references/natural-functions/call-np.gif" alt="Function Call"></a></p>
+<p><a href="https://anupama-pathirage.github.io/docs-bi-new//assets/img/learn/references/natural-functions/call-np.gif"><img src="https://anupama-pathirage.github.io/docs-bi-new//assets/img/learn/references/natural-functions/call-np.gif" alt="Function Call"></a></p>
 </li>
 <li>
 <p>Add a new node after the <code>reviewBlog</code> function call and select <strong><code>Return</code></strong> from the node panel.</p>
 </li>
 <li>
 <p>Select the <code>review</code> variable from the dropdown and click <strong><code>Save</code></strong>.</p>
-<p><a href="http://localhost:8000/assets/img/learn/references/natural-functions/add-return.png"><img src="http://localhost:8000/assets/img/learn/references/natural-functions/add-return.png" alt="Add Return" width="70%"></a></p>
+<p><a href="https://anupama-pathirage.github.io/docs-bi-new//assets/img/learn/references/natural-functions/add-return.png"><img src="https://anupama-pathirage.github.io/docs-bi-new//assets/img/learn/references/natural-functions/add-return.png" alt="Add Return" width="70%"></a></p>
 </li>
 <li>
 <p>The resource implementation is now complete. The function <code>reviewBlog</code> is called with the <code>blog</code> content as input, and the <code>review</code> is returned as the response.</p>
@@ -1733,7 +1733,7 @@ Here is the blog post content:
 <ol>
 <li>
 <p>Press <code>Ctrl + Shift + P</code> on Windows and Linux, or <code>Shift + ⌘ + P</code> on a Mac, and type <code>&gt;Ballerina: Configure default model for natural functions (Experimental)</code> to configure the default model for natural functions. </p>
-<p><a href="http://localhost:8000/assets/img/learn/references/natural-functions/configure-model.png"><img src="http://localhost:8000/assets/img/learn/references/natural-functions/configure-model.png" alt="Configure Model" width="70%"></a></p>
+<p><a href="https://anupama-pathirage.github.io/docs-bi-new//assets/img/learn/references/natural-functions/configure-model.png"><img src="https://anupama-pathirage.github.io/docs-bi-new//assets/img/learn/references/natural-functions/configure-model.png" alt="Configure Model" width="70%"></a></p>
 </li>
 </ol>
 <h3 id="step-7-run-the-integration">Step 7: Run the integration<a class="headerlink" href="#step-7-run-the-integration" title="Permanent link">&para;</a></h3>
@@ -1756,7 +1756,7 @@ Here is the blog post content:
 </li>
 <li>
 <p>The blog content is analyzed by the natural function to suggest a category and rate it based on predefined criteria.</p>
-<p><a href="http://localhost:8000/assets/img/learn/references/natural-functions/run-integration.png"><img src="http://localhost:8000/assets/img/learn/references/natural-functions/run-integration.png" alt="Run Integration" width="70%"></a></p>
+<p><a href="https://anupama-pathirage.github.io/docs-bi-new//assets/img/learn/references/natural-functions/run-integration.png"><img src="https://anupama-pathirage.github.io/docs-bi-new//assets/img/learn/references/natural-functions/run-integration.png" alt="Run Integration" width="70%"></a></p>
 </li>
 </ol>
 
