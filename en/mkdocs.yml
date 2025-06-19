@@ -1,0 +1,211 @@
+# Copyright (c) 2024, WSO2 LLC. (https://www.wso2.com) All Rights Reserved.
+#
+# WSO2 LLC. licenses this file to you under the Apache License,
+# Version 2.0 (the "License"); you may not use this file except
+# in compliance with the License.
+# You may obtain a copy of the License at
+#
+# http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing,
+# software distributed under the License is distributed on an
+# "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+# KIND, either express or implied. See the License for the
+# specific language governing permissions and limitations
+# under the License.
+
+# Project information
+site_name: "WSO2 Integrator: BI Documentation"
+site_description: "Documentation for WSO2 Integrator: BI"
+site_author: WSO2
+site_url: https://bi.docs.wso2.com/
+
+# Repository information
+repo_name: wso2/docs-ballerina-integrator
+repo_url: https://github.com/wso2/docs-bi
+edit_uri: https://github.com/wso2/docs-bi/edit/main/en/docs/
+dev_addr: localhost:8000
+
+# Copyright
+copyright: "WSO2 Integrator: BI - Documentation"
+
+# Configuration
+theme:
+  name: material
+  custom_dir: theme/material
+  logo: images/logo.svg
+  favicon: images/bi-logo.svg
+  features:
+    - content.code.copy
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - content.action.edit
+    - content.action.view
+    - navigation.indexes
+  #highlightjs: true
+  feature:
+    tabs: true
+  language: 'en'
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to dark mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to system preference
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+# Strict Mode
+strict: false # Set to true to break the build if there are warnings
+
+# Navigation structure
+nav:
+  - Home: index.md
+  - Get started:
+      - Introduction: get-started/introduction.md
+      - Quick Start Guide: get-started/quick-start-guide.md
+      - Key Concepts: get-started/key-concepts.md
+  - Install and Setup:
+      - "Install WSO2 Integrator: BI": install-and-setup/install-wso2-integrator-bi.md
+      - "Install WSO2 Integrator: ICP": install-and-setup/install-wso2-integrator-icp.md
+  - Learn:
+      - AI:
+        - Natural functions: learn/ai/natural-functions/natural-functions.md
+        - RAG:
+          - Build a RAG Application: learn/ai/rag/build-a-rag-application.md
+        - Agents:
+          - learn/ai/agents/index.md
+          - Introduction to Chat Agents: learn/ai/agents/introduction-to-chat-agents.md
+          - Introduction to Inline Agents: learn/ai/agents/introduction-to-inline-agents.md
+          - Integrating Agents with External Endpoints: learn/ai/agents/integrating-agents-with-external-endpoints.md
+      #- Automation:
+      #  - learn/automation/index.md
+      #  - Build your first automation: learn/automation/build-your-first-automation.md
+      #- Integration As API:
+      #  - Build your first integration as API: learn/integration-as-api/http-service.md
+      #- Event Integration:
+      #  - learn/event-integration/index.md
+      - File Integration:
+        - File Integration With Directory Service: learn/file-integration/file-integration-with-directory-service.md
+      #  - File integration with FTP service: learn/file-integration/file-integration-with-ftp-service.md
+      - References:
+      #  - Configure the integration: learn/references/configure-the-integration.md
+        - Data Mapping: learn/references/data-mapping.md
+      - Samples:
+        - Message Transformation: learn/samples/message-transformation.md
+        - Message Routing: learn/samples/message-routing.md
+        - Service Orchestration: learn/samples/service-orchestration.md
+      - Enterprise Integration Patterns: learn/enterprise-integrations-patterns.md
+      - Tools:
+        - Mulesoft Migration Tool: learn/tools/mulesoft-migration-tool.md
+        - TIBCO BusinessWorks Migration Tool: learn/tools/tibco-businessworks-migration-tool.md
+  - Develop:
+      - Create a Project: develop/create-a-project.md
+      - "WSO2 Integrator: BI Artifacts": develop/wso2-integrator-bi-artifacts.md
+      - Design the Integration:
+        - Visual View of the Integrations: develop/visual-view-of-the-integrations.md
+      #  - Service Designers: develop/service-designers.md
+      - Try the Integration: develop/try-the-integration.md
+      - AI Assisted Integration:
+      #  - develop/ai-assisted-development/index.md
+        - Build an HTTP Service With WSO2 Copilot : develop/ai-assisted-development/build-an-http-service-with-wso2-copilot.md
+      #- Test the integration: develop/test-the-integrations.md
+      #- Debug the integration: develop/debug-the-integrations.md
+  - Deploy:
+      - Deploy to Devant: deploy/deploy-to-devant.md
+      - Deploy on VM as Executable JAR: deploy/deploy-on-vm-as-executable-jar.md
+      - Deploy as Docker Image: deploy/deploy-as-docker-image.md
+      
+
+# Markdown extensions configuration
+markdown_extensions:
+  - markdown.extensions.admonition
+  - markdown.extensions.codehilite:
+      linenums: true
+      use_pygments: false
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - markdown.extensions.toc:
+      permalink: true
+  - markdown_include.include:
+      base_path: docs
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - pymdownx.snippets:
+      base_path: docs
+  - attr_list
+
+# Plugins configuration
+plugins:
+  - search
+  - markdownextradata: {}
+  - exclude:
+      glob:
+        - wip/*
+  - redirects:
+      redirect_maps:
+
+# Extra configuration
+extra_css:
+  # You can select a different theme for syntax highlighting by simply
+  # selecting a different css file below from the available list.
+  - assets/lib/highlightjs/styles/vs.min.css
+  # Make sure to activate only one palette at a time.
+  # If all the palettes are commented out, the default material theme palette will take over
+  - assets/css/blue-palette-alt1.css
+  # - assets/css/blue-palette-alt2.css
+  # - assets/css/blue-palette.css
+  # - assets/css/green-palette.css
+  # - assets/css/orange-palette.css
+  - assets/css/mitheme.css
+  - assets/css/custom.css
+  - assets/lib/json-formatter/json-formatter.css
+  - assets/css/config-catalog.css
+  - assets/lib/fontawesome-free-6.3.0-web/css/all.min.css
+#  - assets/css/redoc.css
+extra_javascript:
+  - assets/lib/highlightjs/highlight.min.js
+  - assets/lib/json-formatter/json-formatter.umd.js
+  - assets/js/mitheme.js
+  # - assets/lib/backtotop/js/util.js
+  # - assets/lib/backtotop/js/main.js
+extra:
+  social:
+    - type: github
+      link: https://github.com/wso2
+    - type: twitter
+      link: https://twitter.com/wso2
+    - type: linkedin
+      link: https://www.linkedin.com/company/wso2
+  # site_version: Uncomment to specify a version
+  #base_path: https://wso2.github.io/docs-bi
+  base_path: http://localhost:8000
