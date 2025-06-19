@@ -66,6 +66,26 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://bi.docs.wso2.com/get-started/develop-ai-agent/</loc>
+         <lastmod>2025-06-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://bi.docs.wso2.com/get-started/develop-automation/</loc>
+         <lastmod>2025-06-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://bi.docs.wso2.com/get-started/develop-event-integration/</loc>
+         <lastmod>2025-06-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://bi.docs.wso2.com/get-started/develop-file-integration/</loc>
+         <lastmod>2025-06-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://bi.docs.wso2.com/get-started/develop-integration-as-api/</loc>
          <lastmod>2025-06-19</lastmod>
          <changefreq>daily</changefreq>
