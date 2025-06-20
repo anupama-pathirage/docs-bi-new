@@ -22,6 +22,18 @@
     padding-top: 0.5rem;
 }
 
+.md-nav__link{
+    font-weight:  bold;
+}
+
+.md-nav--primary .md-nav__item--nested  .md-nav__list .md-nav__link{
+    font-weight: normal !important;
+}
+
+.md-nav__item .md-nav__link--active {
+    color:  #0369A1 !important;
+}
+
 .md-flex__ellipsis {
     font-size: 0.70rem;
 }

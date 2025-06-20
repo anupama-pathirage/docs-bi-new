@@ -4,8 +4,21 @@
         "icon": "🚀",
         "links": [
             {"name": "Introduction", "url": "get-started/introduction/"},
-            {"name": "Key Concepts", "url": "get-started/key-concepts/"},
-            {"name": "Quick Start Guide", "url": "get-started/quick-start-guide/"}
+            {"name": "Install WSO2 Integrator: BI", "url": "get-started/install-wso2-integrator-bi/"},
+            {"name": "Develop Automation", "url": "get-started/develop-automation/"},
+            {"name": "Develop AI Agent", "url": "get-started/develop-ai-agent/"},
+            {"name": "Develop Integration as API", "url": "get-started/develop-integration-as-api/"},
+            {"name": "Develop Event Integration", "url": "get-started/develop-event-integration/"},
+            {"name": "Develop File Integration", "url": "get-started/develop-file-integration/"}
+        ]
+    },
+    {
+        "title": "Integration Guides",
+        "icon": "⚙️",
+        "links": [
+            {"name": "Deploy to Devant", "url": "deploy/deploy-to-devant/"},
+            {"name": "Deploy as a Docker Image", "url": "deploy/deploy-as-docker-image/"},
+            {"name": "Deploy on VM as an Executable JAR", "url": "deploy/deploy-on-vm-as-executable-jar/"}
         ]
     },
     {
