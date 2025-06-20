@@ -111,6 +111,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://bi.docs.wso2.com/developer-guides/protocols-and-connectors/</loc>
+         <lastmod>2025-06-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://bi.docs.wso2.com/developer-guides/protocols-and-connectors/build-a-local-connector/</loc>
          <lastmod>2025-06-20</lastmod>
          <changefreq>daily</changefreq>
@@ -212,6 +217,11 @@
     </url>
     <url>
          <loc>https://bi.docs.wso2.com/integration-guides/file-integration/file-integration-with-ftp-service/</loc>
+         <lastmod>2025-06-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://bi.docs.wso2.com/integration-guides/integration-as-api/</loc>
          <lastmod>2025-06-20</lastmod>
          <changefreq>daily</changefreq>
     </url>

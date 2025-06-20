@@ -787,23 +787,37 @@
   
   
   
+    <li class="md-nav__item">
+      <a href="../../../integration-guides/integration-as-api/" class="md-nav__link">
+        Introduction to Integration as API
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
     
     <li class="md-nav__item md-nav__item--nested">
       
       
       
       
-      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3_1" >
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3_2" >
       
       
       
-        <label class="md-nav__link" for="__nav_3_3_1" id="__nav_3_3_1_label" tabindex="0">
+        <label class="md-nav__link" for="__nav_3_3_2" id="__nav_3_3_2_label" tabindex="0">
           HTTP Service
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_3_1_label" aria-expanded="false">
-        <label class="md-nav__title" for="__nav_3_3_1">
+      <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_3_2_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_3_3_2">
           <span class="md-nav__icon md-icon"></span>
           HTTP Service
         </label>
@@ -869,17 +883,17 @@
       
       
       
-      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3_2" >
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3_3" >
       
       
       
-        <label class="md-nav__link" for="__nav_3_3_2" id="__nav_3_3_2_label" tabindex="0">
+        <label class="md-nav__link" for="__nav_3_3_3" id="__nav_3_3_3_label" tabindex="0">
           GraphQL Service
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_3_2_label" aria-expanded="false">
-        <label class="md-nav__title" for="__nav_3_3_2">
+      <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_3_3_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_3_3_3">
           <span class="md-nav__icon md-icon"></span>
           GraphQL Service
         </label>
@@ -947,7 +961,7 @@
   
     <li class="md-nav__item">
       <a href="../../../integration-guides/event-integration/" class="md-nav__link">
-        Index
+        Introduction to Event Integration
       </a>
     </li>
   
@@ -1037,7 +1051,7 @@
   
     <li class="md-nav__item">
       <a href="../../../integration-guides/file-integration/" class="md-nav__link">
-        Index
+        Introduction to File Integration
       </a>
     </li>
   
@@ -1280,7 +1294,7 @@
   
     <li class="md-nav__item">
       <a href="../../../developer-guides/ai-for-integration/" class="md-nav__link">
-        Introduction to AI Assisted Development
+        Introduction to AI for Integration
       </a>
     </li>
   
@@ -1919,7 +1933,7 @@
 <h1 id="message-transformation">Message Transformation<a class="headerlink" href="#message-transformation" title="Permanent link">&para;</a></h1>
 <h2 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">&para;</a></h2>
 <p>This guide explains how to create a simple integration to convert a JSON payload to an XML payload using WSO2 Integrator: BI. An HTTP service with a single resource (<code>toXml</code>) will be created to accept a JSON payload and return the XML representation of the payload.</p>
-<p><a href="https://anupama-pathirage.github.io/docs-bi-new//assets/img/learn/samples/message-transformation/introduction.png"><img src="https://anupama-pathirage.github.io/docs-bi-new//assets/img/learn/samples/message-transformation/introduction.png" alt="JSON to XML" width="70%"></a></p>
+<p><a href="http://localhost:8000/assets/img/learn/samples/message-transformation/introduction.png"><img src="http://localhost:8000/assets/img/learn/samples/message-transformation/introduction.png" alt="JSON to XML" width="70%"></a></p>
 <h2 id="step-1-create-a-new-integration-project">Step 1: Create a new integration project<a class="headerlink" href="#step-1-create-a-new-integration-project" title="Permanent link">&para;</a></h2>
 <ol>
 <li>Click on the <strong>BI</strong> icon on the sidebar.</li>
@@ -1928,7 +1942,7 @@
 <li>Select project directory location by clicking on the <strong>Select Location</strong> button.</li>
 <li>
 <p>Click on the <strong>Create Integration</strong> button to create the integration project.</p>
-<p><a href="https://anupama-pathirage.github.io/docs-bi-new//assets/img/learn/samples/message-transformation/create-integration.gif"><img src="https://anupama-pathirage.github.io/docs-bi-new//assets/img/learn/samples/message-transformation/create-integration.gif" alt="Create Integration" width="70%"></a></p>
+<p><a href="http://localhost:8000/assets/img/learn/samples/message-transformation/create-integration.gif"><img src="http://localhost:8000/assets/img/learn/samples/message-transformation/create-integration.gif" alt="Create Integration" width="70%"></a></p>
 </li>
 </ol>
 <h2 id="step-2-create-a-http-service">Step 2: Create a HTTP service<a class="headerlink" href="#step-2-create-a-http-service" title="Permanent link">&para;</a></h2>
@@ -1945,7 +1959,7 @@
 <li>The service will have a default resource named <code>greeting</code> with the <strong>GET</strong> method. Click on three dots appear in front of the <code>/convert</code> service resource and select <strong>Edit</strong> from menu.</li>
 <li>
 <p>Then click the edit button in front of <code>/greeting</code> resource.  </p>
-<p><a href="https://anupama-pathirage.github.io/docs-bi-new//assets/img/learn/samples/message-transformation/edit-resource.gif"><img src="https://anupama-pathirage.github.io/docs-bi-new//assets/img/learn/samples/message-transformation/edit-resource.gif" alt="Edit Resource" width="70%"></a></p>
+<p><a href="http://localhost:8000/assets/img/learn/samples/message-transformation/edit-resource.gif"><img src="http://localhost:8000/assets/img/learn/samples/message-transformation/edit-resource.gif" alt="Edit Resource" width="70%"></a></p>
 </li>
 <li>
 <p>Change the resource HTTP method to <strong>POST</strong>.</p>
@@ -1955,7 +1969,7 @@
 <li>Change the 201 response return type to <code>xml</code>.</li>
 <li>
 <p>Click on the <strong>Save</strong> button to update the resource with the specified configurations.</p>
-<p><a href="https://anupama-pathirage.github.io/docs-bi-new//assets/img/learn/samples/message-transformation/update-resource.gif"><img src="https://anupama-pathirage.github.io/docs-bi-new//assets/img/learn/samples/message-transformation/update-resource.gif" alt="Update Resource" width="70%"></a></p>
+<p><a href="http://localhost:8000/assets/img/learn/samples/message-transformation/update-resource.gif"><img src="http://localhost:8000/assets/img/learn/samples/message-transformation/update-resource.gif" alt="Update Resource" width="70%"></a></p>
 </li>
 </ol>
 <div class="admonition info">
@@ -1972,14 +1986,14 @@
 <li>Change the <strong>Variable Name</strong> to <code>xmlResult</code>, <strong>Variable Type</strong> as <code>xml</code> and <strong>JsonValue</strong> to <code>input</code>.</li>
 <li>
 <p>Click on the <strong>Save</strong> button to add the function call to the resource.</p>
-<p><a href="https://anupama-pathirage.github.io/docs-bi-new//assets/img/learn/samples/message-transformation/add-variable.gif"><img src="https://anupama-pathirage.github.io/docs-bi-new//assets/img/learn/samples/message-transformation/add-variable.gif" alt="Add Function Call" width="70%"></a></p>
+<p><a href="http://localhost:8000/assets/img/learn/samples/message-transformation/add-variable.gif"><img src="http://localhost:8000/assets/img/learn/samples/message-transformation/add-variable.gif" alt="Add Function Call" width="70%"></a></p>
 </li>
 <li>
 <p>Add a new node after the <code>fromJson</code> function call and select <strong>Return</strong> from the node panel.</p>
 </li>
 <li>
 <p>Select the <code>xmlResult</code> variable from the dropdown and click <strong>Save</strong>.</p>
-<p><a href="https://anupama-pathirage.github.io/docs-bi-new//assets/img/learn/samples/message-transformation/add-return.png"><img src="https://anupama-pathirage.github.io/docs-bi-new//assets/img/learn/samples/message-transformation/add-return.png" alt="Add Return" width="70%"></a></p>
+<p><a href="http://localhost:8000/assets/img/learn/samples/message-transformation/add-return.png"><img src="http://localhost:8000/assets/img/learn/samples/message-transformation/add-return.png" alt="Add Return" width="70%"></a></p>
 </li>
 </ol>
 <div class="admonition info">
@@ -2005,7 +2019,7 @@
         &lt;age&gt;30&lt;/age&gt;
         &lt;car&gt;Honda&lt;/car&gt;
     &lt;/root&gt;</code>
-    <a href="https://anupama-pathirage.github.io/docs-bi-new//assets/img/learn/samples/message-transformation/run-integration.png"><img src="https://anupama-pathirage.github.io/docs-bi-new//assets/img/learn/samples/message-transformation/run-integration.png" alt="Run Integration" width="70%"></a></p>
+    <a href="http://localhost:8000/assets/img/learn/samples/message-transformation/run-integration.png"><img src="http://localhost:8000/assets/img/learn/samples/message-transformation/run-integration.png" alt="Run Integration" width="70%"></a></p>
 </li>
 <li>
 <p>Additionally, the service can be tested using tools like <a href="https://www.postman.com/">Postman</a> or <a href="https://curl.se/">curl</a> by sending a POST request with a JSON payload to the service endpoint.
