@@ -22,8 +22,8 @@ site_url: https://bi.docs.wso2.com/
 
 # Repository information
 repo_name: wso2/docs-ballerina-integrator
-repo_url: https://github.com/wso2/docs-bi
-edit_uri: https://github.com/wso2/docs-bi/edit/main/en/docs/
+repo_url: https://github.com/anupama-pathirage/docs-bi-new
+edit_uri: https://github.com/anupama-pathirage/docs-bi-new/edit/main/en/docs/
 dev_addr: localhost:8000
 
 # Copyright
