@@ -105,6 +105,7 @@ nav:
           - Build a RAG Application: integration-guides/integration-for-ai/rag/build-a-rag-application.md
         - Natural functions: integration-guides/integration-for-ai/natural-functions/natural-functions.md
       - Integration As API:
+        - integration-guides/integration-as-api/index.md
         - HTTP Service:
           - Data Service: integration-guides/integration-as-api/http-service/data-service.md
           - Message Routing: integration-guides/integration-as-api/http-service/message-routing.md
@@ -237,5 +238,5 @@ extra:
     - type: linkedin
       link: https://www.linkedin.com/company/wso2
   # site_version: Uncomment to specify a version
-  base_path: https://anupama-pathirage.github.io/docs-bi-new/
-  #base_path: http://localhost:8000
+  #base_path: https://anupama-pathirage.github.io/docs-bi-new/
+  base_path: http://localhost:8000

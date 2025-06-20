@@ -1,1 +1,1 @@
-# Introduction to AI Assisted Development
+# Introduction to AI for Integration

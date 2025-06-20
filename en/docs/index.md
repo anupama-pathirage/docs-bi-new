@@ -16,27 +16,49 @@
         "title": "Integration Guides",
         "icon": "⚙️",
         "links": [
-            {"name": "Deploy to Devant", "url": "deploy/deploy-to-devant/"},
-            {"name": "Deploy as a Docker Image", "url": "deploy/deploy-as-docker-image/"},
-            {"name": "Deploy on VM as an Executable JAR", "url": "deploy/deploy-on-vm-as-executable-jar/"}
-        ]
-    },
-    {
-        "title": "Deployment Options",
-        "icon": "⚙️",
-        "links": [
-            {"name": "Deploy to Devant", "url": "deploy/deploy-to-devant/"},
-            {"name": "Deploy as a Docker Image", "url": "deploy/deploy-as-docker-image/"},
-            {"name": "Deploy on VM as an Executable JAR", "url": "deploy/deploy-on-vm-as-executable-jar/"}
+            {"name": "Automation", "url": "integration-guides/automation/"},
+            {"name": "Integration for AI", "url": "integration-guides/integration-for-ai/"},
+            {"name": "Integration as API", "url": "integration-guides/integration-as-api/"},
+            {"name": "Event Integration", "url": "integration-guides/event-integration/"},
+            {"name": "File Integration", "url": "integration-guides/file-integration/"}
         ]
     }
     ],
     [{
-        "title": "Install & Setup",
+        "title": "AI",
         "icon": "⏬",
         "links": [
-            {"name": "Install WSO2 Integrator: BI", "url": "install-and-setup/install-wso2-integrator-bi/"},
-            {"name": "Install WSO2 Integrator: ICP", "url": "install-and-setup/install-wso2-integrator-icp/"}
+            {"name": "Integration for AI", "url": "integration-guides/integration-for-ai/"},
+            {"name": "AI for Integration", "url": "developer-guides/ai-for-integration/"}
+        ]
+    },
+    {
+        "title": "Developer Guides",
+        "icon": "📚",
+        "links": [
+            {"name": "Design the Integrations", "url": "developer-guides/design-the-integrations"},
+            {"name": "Data Mapping", "url": "developer-guides/data-mapping"},
+            {"name": "Protocols and Connectors", "url": "developer-guides/protocols-and-connectors"},
+            {"name": "AI for Integration", "url": "developer-guides/ai-for-integration"},
+            {"name": "Configure the Integration", "url": "developer-guides/configure-the-integration"}
+        ]
+    }
+    ],
+    [
+    {
+        "title": "Deployment",
+        "icon": "⚙️",
+        "links": [
+            {"name": "Deploy to Devant", "url": "deployment/deploy-to-devant/"},
+            {"name": "VM based Deployment", "url": "deployment/vm-based-deployment/"},
+            {"name": "Containerized Deployment", "url": "deployment/containerized-deployment/"}
+        ]
+    },
+    {
+        "title": "References    ",
+        "icon": "📖",
+        "links": [
+            {"name": "Enterprise Integration Patterns", "url": "references/enterprise-integrations-patterns/"}
         ]
     },
     {
@@ -46,29 +68,6 @@
             {"name": "GitHub", "url": "https://github.com/wso2/product-ballerina-integrator/issues"},
             {"name": "Discord", "url": "https://discord.com/invite/wso2"},
             {"name": "Enterprise Support", "url": "https://wso2.com/subscription/"}
-        ]
-    }
-    ],
-    [
-    {
-        "title": "Tutorials",
-        "icon": "📚",
-        "links": [
-            {"name": "Introduction to Chat Agents", "url": "learn/ai/agents/introduction-to-chat-agents/"},
-            {"name": "Introduction to Inline Agents", "url": "learn/ai/agents/introduction-to-inline-agents"},
-            {"name": "Integrating Agents with External Endpoints", "url": "learn/ai/agents/integrating-agents-with-external-endpoints/"},
-            {"name": "File Integration With Directory Service", "url": "learn/file-integration/file-integration-with-directory-service/"},
-            {"name": "Build an HTTP Service With WSO2 Copilot", "url": "develop/ai-assisted-development/build-an-http-service-with-wso2-copilot/"},
-            {"name": "Message Transformation", "url": "learn/samples/message-transformation/"},
-            {"name": "Message Routing", "url": "learn/samples/message-routing/"},
-            {"name": "Service Orchestration", "url": "learn/samples/service-orchestration"}
-        ]
-    },
-    {
-        "title": "Samples",
-        "icon": "📖",
-        "links": [
-            {"name": "Enterprise Integration Patterns", "url": "learn/enterprise-integrations-patterns/"}
         ]
     }
     ]
